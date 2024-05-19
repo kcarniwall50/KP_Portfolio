@@ -25,13 +25,16 @@ const About = () => {
             <article className="about_card">
               <MdCastForEducation className="about_icon" />
               <h5>Education</h5>
-              <small>MNNIT Allahabad</small>
+              <small>NIT Allahabad (MNNIT)</small>
               <br />
               <small>
-                Incomplete, &nbsp; B.Tech Mechanical Engineering
+              B.Tech
+                <br>
+                  Mechanical Engineering
+              </br>
               </small>{" "}
               <br />
-              <small>Jul 2018 - Feb 2021</small>
+              <small>Final Year</small>
             </article>
             <article className="about_card">
               <MdLanguage className="about_icon" />
