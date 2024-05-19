@@ -27,12 +27,12 @@ const About = () => {
               <h5>Education</h5>
               <small>NIT Allahabad (MNNIT)</small>
               <br />
-              B.Tech
+             <small>B.Tech</small> 
               <br/>
               <small>
               
                 
-                  Mechanical Engineering
+                 <span>Mechanical Engineering</span> 
               
               </small>{" "}
               <br />
