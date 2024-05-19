@@ -42,16 +42,16 @@ const About = () => {
           <p>
             <div>
               <p>
-                I was enrolled in B. Tech Mechanical Engineering Program at
-                MNNIT Allahabad in session 2018-2022. Later I found myself
-                inclined toward learning new computer-related technologies and
-                skills by myself. That led to me quitting college in February
-                2021.
+      
+                I was enrolled in the B.Tech Mechanical Engineering Program at NIT Allahabad (MNNIT) in session 2018-2022. 
+                Later On, I found myself inclined toward learning new computer-related technologies and skills and exploring new things by myself which made me think of taking a break from ongoing academics That led to me quitting the enrolled program in March 2021. I got the feeling of going college back and 
+I rejoined the college in July 2023. Currently, I am a final-year student graduating in July 2024.
+
               </p>
               <p  style={{marginTop:'-1rem'}} >
                 I take intrest in reading and learning about different
                 disciplines of natural Science. I like to listen all sort of
-                music. I'm big fan of Marvel Cinematic Universe (MCU).
+                music and going at natural places. I'm big fan of Marvel Cinematic Universe (MCU).
               </p>
             </div>
           </p>
