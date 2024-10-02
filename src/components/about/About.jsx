@@ -25,18 +25,16 @@ const About = () => {
             <article className="about_card">
               <MdCastForEducation className="about_icon" />
               <h5>Education</h5>
-              <small>NIT Allahabad (MNNIT)</small>
-              <br />
-             <small>B.Tech</small> 
-              <br/>
               <small>
-              
-                
-                 <span>Mechanical Engineering</span> 
-              
-              </small>{" "}
+                Motilal Nehru National Institute of Technology,Allahabad (NIT
+                Allahabad){" "}
+              </small>
               <br />
-              <small>Final Year</small>
+              <small>B.Tech</small>
+              <br />
+              <small>
+                <span>Mechanical Engineering</span>
+              </small>{" "}
             </article>
             <article className="about_card">
               <MdLanguage className="about_icon" />
@@ -46,17 +44,10 @@ const About = () => {
           </div>
           <p>
             <div>
-              <p>
-      
-                I was enrolled in the B.Tech Mechanical Engineering Program at NIT Allahabad (MNNIT) in session 2018-2022. 
-                Later On, I found myself inclined toward learning new computer-related technologies and skills and exploring new things by myself which made me think of taking a break from ongoing academics That led to me quitting the enrolled program in March 2021. I got the feeling of going college back and 
-I rejoined the college in July 2023. Currently, I am a final-year student graduating in July 2024.
-
-              </p>
-              <p  style={{marginTop:'-1rem'}} >
-                I take intrest in reading and learning about different
-                disciplines of natural Science. I like to listen all sort of
-                music and going at natural places. I'm big fan of Marvel Cinematic Universe (MCU).
+              <p style={{ marginTop: "-1rem" }}>
+                I’m a nature-loving science enthusiast with a passion for
+                diverse music genres and a love for the Marvel Cinematic
+                Universe.
               </p>
             </div>
           </p>
