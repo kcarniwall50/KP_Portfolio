@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import kp1 from "../../assets/kp1.jpg";
+import kp1 from "../../assets/kp3.jpg";
 import { FaAward } from "react-icons/fa";
 import { MdCastForEducation, MdLanguage } from "react-icons/md";
 
