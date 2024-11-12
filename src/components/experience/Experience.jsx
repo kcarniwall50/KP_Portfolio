@@ -81,7 +81,23 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>API Testing</h4>
+                <h4>RESTful APIs</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+           
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Problem-Solving</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4> Debugging</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -179,6 +195,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>SQL</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Database Management System(DBMS)</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>

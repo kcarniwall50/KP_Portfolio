@@ -19,11 +19,11 @@ const Footer = () => {
       <div className='footer_socials'>
         <a href="https://github.com/kcarniwall50"><AiFillGithub/></a>
         <a href="https://twitter.com/Kamlesh28941022?t=vrmJUWopGErpUMztC9iOSw&s=35"><IoLogoTwitter/></a>
-        <a href="https://www.linkedin.com/in/kamlesh-patel-605633252/"><AiFillLinkedin/></a>
+        <a href="https://www.linkedin.com/in/kamlesh-patel-7b9705335/"><AiFillLinkedin/></a>
       </div>
 
       <div className='footer_copyright'>
-        <small>&copy; Kamlesh Portfolio. All rights reserviced 2023</small>
+        <small>&copy; Kamlesh Portfolio. All rights reserviced 2024</small>
       </div>
     </footer>
   )
