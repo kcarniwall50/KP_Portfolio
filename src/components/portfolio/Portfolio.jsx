@@ -6,10 +6,12 @@ import chat from "../../assets/chat852.png";
 import beginner from "../../assets/beginner852.png";
 import ecommerce from "../../assets/e-commerce852.png";
 import youtube from "../../assets/youtube852.png";
+import taskManagement from "../../assets/task_management.png";
 import EcommerceDetail from "./EcommerceDetail";
 import InventoryDetail from "./InventoryDetail";
 import ChatDetail from "./ChatDetail";
 import YoutubeCloneDetail from "./YoutubeCloneDetail";
+import TaskManagement from "./TaskManagement";
 import BeginnerDetail from "./BeginnerDetail";
 import PokedexDetail from "./PokedexDetail";
 
@@ -33,6 +35,9 @@ const Portfolio = () => {
   const youtubeRef = useRef();
   const youtubeDetailRef = useRef();
 
+  const taskManagementRef = useRef();
+  const taskManagementDetailRef = useRef();
+
   const [isPokedexTechStackOpen, setIsPokedexTechStackOpen] = useState(false);
 
   const [isInventTechStackOpen, setIsInventTechStackOpen] = useState(false);
@@ -42,6 +47,7 @@ const Portfolio = () => {
     useState(false);
   const [isBeginnerTechStackOpen, setIsBeginnerTechStackOpen] = useState(false);
   const [isYoutubeTechStackOpen, setIsYoutubeTechStackOpen] = useState(false);
+  const [isTaskManagementTechStackOpen, setIsTaskManagementTechStackOpen] = useState(false);
 
   const kp = (e) => {
     // pokedex ref
@@ -91,6 +97,17 @@ const Portfolio = () => {
     if (youtubeDetailRef.current?.contains(e.target)) {
       setIsYoutubeTechStackOpen(() => true);
     }
+
+     //  Task Management ref
+    
+      if (!taskManagementRef.current?.contains(e.target)) {
+        setIsTaskManagementTechStackOpen(() => false);
+      }
+      if (taskManagementDetailRef.current?.contains(e.target)) {
+        setIsTaskManagementTechStackOpen(() => true);
+      }
+    
+   
   };
 
   useEffect(() => {
@@ -321,6 +338,62 @@ const Portfolio = () => {
 
             <a
               href="https://github.com/kcarniwall50/youtube_clone/tree/main"
+              className="btn"
+              target="_blank"
+            >
+              Source Code
+            </a>
+          </div>
+        </article>
+
+{/* // Task Management  */}
+
+<article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src={taskManagement} alt="" style={{ width: "100%" }} />
+          </div>
+          <b>Task Management App</b> <br />
+          <div>
+            <p
+              ref={taskManagementRef}
+              onClick={() => setIsTaskManagementTechStackOpen((prev) => !prev)}
+              className="btn-techStack"
+            >
+              Used Tech Stack{" "}
+            </p>
+
+            {isTaskManagementTechStackOpen && (
+              <div
+                ref={taskManagementDetailRef}
+                className={
+                  isTaskManagementTechStackOpen
+                    ? "techStack-points"
+                    : "noTechStack-points"
+                }
+              >
+                {/* project overview */}
+                <div style={{ padding: "1em" }}>
+                  <h5 style={{ fontSize: "1rem" }}>Project Overview: </h5>
+                  <p>
+                  This project is a Task Management Application built with React and TypeScript. It helps users efficiently organize their tasks, providing features for task management and insightful dashboard statistics.
+                  </p>
+                </div>
+
+                <TaskManagement />
+              </div>
+            )}
+          </div>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://task-management-app-beta-two.vercel.app/"
+              className=" btn btn-primary"
+              target="_blank"
+            >
+              Live
+            </a>
+
+            <a
+              href="https://github.com/kcarniwall50/task_management_app"
               className="btn"
               target="_blank"
             >
